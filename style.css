@@ -1,0 +1,83 @@
+img {
+    width: 700px;
+    height: auto;
+    display: block; 
+    margin:  auto; 
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-size: 20px;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: justify;
+    display: block;
+}
+
+
+
+
+ul{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 35px;
+    
+}
+
+ol{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 35px;
+    
+}
+
+.cor-rosa{
+    margin-left: 20px;
+    font-size: 25px;
+    color:hsl(332, 51%, 32%)
+    
+    
+}
+.cor-roxa{
+    margin-left: 20px;
+    font-size: 35px;
+    color:hsl(14, 45%, 36%)
+}
+
+.fundo{
+    background-color: hsl(0, 0%, 96%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    max-width: 800px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: hsl(30, 54%, 90%)
+}
+
+li{
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.nutri{
+    width: 100%;
+    margin: 20px 0;
+    font-size: 18px;
+    color: #333;
+}
